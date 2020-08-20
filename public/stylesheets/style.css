@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: white;
+  height: 300%;
+}
+
+top {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 15%;
+  background-color: black;
+}
+logo{
+  position: absolute;
+  left: 50%;
+  font-size: 40px;
+  transform: translate(-50%);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  top: 25%;
+}
+
+.text-decoration-none{
+  text-decoration: none;
+  color: white;
+}
+
+categories{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 100px;
+  display: inline;
+}
+
+.categories-button{
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+new-collection{
+  position: absolute;
+  left: 0;
+  top: 15%;
+  right: 0;
+  height: 60vh;
+  background: url("/images/sample2.jpg");
+  background-position: center;
+  background-size: cover;
+  border-bottom: 5px solid black;
+}
+
+.new-collection-button{
+  left: 50%;
+  position: absolute;
+  background-color: black;
+  height: 50px;
+  width: 200px;
+  transform: translate(-50%);
+  bottom: 10%;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  line-height: 50px;
+}
+
+footer{
+  position: absolute;
+  background-color: rgb(216, 214, 214);
+  left: 0;
+  right: 0;
+  top: 250%;
+  height: 200px;
+  text-align: center;
+}
+
+items{
+  position: absolute;
+  top: 90%;
+  width: 1055px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+items a img{
+  border: 5px solid black;
+  height: 250px;
+}
+
